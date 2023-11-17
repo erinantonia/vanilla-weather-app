@@ -87,6 +87,31 @@ main {
   margin-top: 15px;
 }
 
+.weather-forecast {
+  display: flex;
+  margin-top: 30px;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  font-weight: 600;
+}
+
+.weather-forecast-icon {
+  text-align: center;
+}
+
+.weather-forecast-temperatures {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  justify-content: center;
+}
+
+.weather-forecast-temperatures-max {
+  color: rgb(190, 23, 95);
+}
+
 footer {
   border-top: 1px solid rgb(246, 226, 229);
   padding: 30px 0 0 0;
